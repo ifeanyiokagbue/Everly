@@ -24,8 +24,11 @@ For a table called Bank which has columns BankID int, BankName varchar(50), Crea
 to perform CRUD operations with the following queries.
 
 Everly 'FETCH','','Banks',''
-Everly 'INSERT','"WALLY","WALLY BANK",1,fshdgffh','Banks',''
+
+Everly 'INSERT','"WALLY","WALLY BANK",1,GETDATE()','Banks',''
+
 Everly 'UPDATE','"WALLY","WALLY BANK",1,GETDATE()','Banks','BankID=1028'
+
 Everly 'DELETE','','Banks','BankID=1027'
 
 Finally, if you have done any action in error like UPDATE/DELETE/INSERT you can simply reverse it using Everly like this:
