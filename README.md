@@ -4,7 +4,7 @@ even helps to reverse an operation done using it.
 
 Requirements
 ------------
-Everly requires two scripts everly-prerequisites.sql and everyly.sql. The former contains four user-defined functions which are: 
+Everly requires two scripts everly-prerequisites.sql and everly.sql. The former contains four user-defined functions which are: 
 1. Fetch_ReturnCommaSeparatedString - This is used to get values from a comma seperated string using the index.
 2. IsValueValid - This is used to check that the value of a parameter is valid comparing it with the datatype of the column to use it.
 3. IsValuesValid - This is used to check that all the parameters passed are valid. It loops through each of the value using IsValueValid
