@@ -20,7 +20,7 @@ columns, @TableName for Table to be modified and @Condition for the condition fo
 
 Examples on How to use Everly
 -----------------------------
-For a table called Bank which has columns BankID int, BankName varchar(50), CreatedBy int and DateCreated datetime, everly can be used 
+For a table called Banks which has columns BankID int, BankName varchar(50), CreatedBy int and DateCreated datetime, everly can be used 
 to perform CRUD operations with the following queries.
 
 Everly 'FETCH','','Banks',''
